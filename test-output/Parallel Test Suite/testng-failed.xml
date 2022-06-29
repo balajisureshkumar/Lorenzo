@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Parallel Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="Testcases.TestToolBar">
+        <methods>
+          <include name="Finalreport"/>
+          <include name="verifyHiddenTooltip"/>
+          <include name="closethebrowser"/>
+          <include name="teardown"/>
+          <include name="initializethebrowser"/>
+          <include name="ExtentReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.TestToolBar -->
+      <class name="Testcases.TestAddrControl">
+        <methods>
+          <include name="verifyAddressAccessKey"/>
+          <include name="verifyGetSFSVisibleStatusFalse"/>
+          <include name="verifyGetCountryText"/>
+          <include name="verifyIsIsEnableSFSiconTrue"/>
+          <include name="verifyTeleAccessKey"/>
+          <include name="verifyEmailAccessKey"/>
+          <include name="verifyShowAddress"/>
+          <include name="verifyEnableSFSiconFalse"/>
+          <include name="verifyVisibleAddressFalse"/>
+          <include name="verifyGetAddress"/>
+          <include name="verifyGetSFSDisplayStatusFalse"/>
+          <include name="verifyMediumAddressType"/>
+          <include name="verifySetCountryText"/>
+          <include name="verifyShowToolTip"/>
+          <include name="verifyShowAddressType"/>
+          <include name="verifyIsIsEnableSFSiconFalse"/>
+          <include name="Finalreport"/>
+          <include name="verifyEnableAddressTrue"/>
+          <include name="verifyGetSFSVisibleStatusTrue"/>
+          <include name="verifyLargeAddressType"/>
+          <include name="verifyIsVisibleSFSiconFalse"/>
+          <include name="verifyGetEmptyFeildCodes"/>
+          <include name="verifyIsEnableAddressTrue"/>
+          <include name="verifyFaxAccessKey"/>
+          <include name="verifySetAddress"/>
+          <include name="verifyVisibleSFSiconFalse"/>
+          <include name="verifyCommunicationAddressType"/>
+          <include name="teardown"/>
+          <include name="verifyGetMandatoryCodes"/>
+          <include name="verifySetFocus"/>
+          <include name="verifyIsVisibleAddressTrue"/>
+          <include name="closethebrowser"/>
+          <include name="verifyEnableSFSiconTrue"/>
+          <include name="verifyGetCodeForLabel"/>
+          <include name="verifyHorizontal"/>
+          <include name="ExtentReport"/>
+          <include name="verifyIsVisibleAddressFalse"/>
+          <include name="verifyEnableAddressFalse"/>
+          <include name="verifyWebsiteAccessKey"/>
+          <include name="setup"/>
+          <include name="verifyGetCountryValue"/>
+          <include name="verifySmallAddressType"/>
+          <include name="verifySetCountryValue"/>
+          <include name="verifyVisibleAddressTrue"/>
+          <include name="verifyGetAvailableCodes"/>
+          <include name="verifyVertical"/>
+          <include name="verifyAddress1Type"/>
+          <include name="verifyIsVisibleSFSiconTrue"/>
+          <include name="verifyPostalCode"/>
+          <include name="verifyVisibleSFSiconTrue"/>
+          <include name="verifyBothAddressType"/>
+          <include name="initializethebrowser"/>
+          <include name="verifyGetSFSDisplayStatusTrue"/>
+          <include name="verifyIsEnableAddressFalse"/>
+        </methods>
+      </class> <!-- Testcases.TestAddrControl -->
+      <class name="Testcases.TestTimeBox">
+        <methods>
+          <include name="verifyClearText"/>
+          <include name="Finalreport"/>
+          <include name="verifyIsValid"/>
+          <include name="verifyGetText"/>
+          <include name="verifyShowToolTipFalse"/>
+          <include name="verifyClearAll"/>
+          <include name="verifyIsValidTime"/>
+          <include name="verifyVisibleTrue"/>
+          <include name="verifyAutoDec"/>
+          <include name="verifyReadOnlyTrue"/>
+          <include name="initializethebrowser"/>
+          <include name="verifyEnableTrue"/>
+          <include name="verifyReadOnlyFalse"/>
+          <include name="verifySetText"/>
+          <include name="verifyTimeBox1Dec"/>
+          <include name="teardown"/>
+          <include name="closethebrowser"/>
+          <include name="verifyTimeBox2Inc"/>
+          <include name="verifyEnableFalse"/>
+          <include name="verifyAutoInc"/>
+          <include name="verifyGetTime"/>
+          <include name="verifyVisibleFalse"/>
+          <include name="verifyMandatoryFalse"/>
+          <include name="verifyMandatoryTrue"/>
+          <include name="verifyDisplayTrue"/>
+          <include name="verifyShowToolTipTrue"/>
+          <include name="verifyDisplayFalse"/>
+          <include name="setup"/>
+          <include name="verifyTimeBox2Dec"/>
+          <include name="verifyTimeBox1Inc"/>
+          <include name="ExtentReport"/>
+        </methods>
+      </class> <!-- Testcases.TestTimeBox -->
+      <class name="Testcases.TestTextBox">
+        <methods>
+          <include name="verifyVisibleYes"/>
+          <include name="verifyMultiLineGet"/>
+          <include name="setup"/>
+          <include name="verifyMultiLineSet"/>
+          <include name="verifyNormalSet"/>
+          <include name="verifyAlphaVal"/>
+          <include name="verifyNumValData"/>
+          <include name="verifyValRange"/>
+          <include name="verifyPassSet"/>
+          <include name="ExtentReport"/>
+          <include name="verifyNumSet"/>
+          <include name="verifyAlphaNumVal"/>
+          <include name="verifyNumGet"/>
+          <include name="verifyVisibleNo"/>
+          <include name="verifyAlphaNumSet"/>
+          <include name="verifyDisplayYes"/>
+          <include name="verifyValReq"/>
+          <include name="verifyPassGet"/>
+          <include name="verifyAlphaGetText"/>
+          <include name="verifyMandatoryNo"/>
+          <include name="verifyEnableNo"/>
+          <include name="initializethebrowser"/>
+          <include name="verifyEnableYes"/>
+          <include name="verifyReadOnlyYes"/>
+          <include name="verifyAlphaNumGet"/>
+          <include name="verifyReadOnlyNo"/>
+          <include name="verifyMandatoryYes"/>
+          <include name="teardown"/>
+          <include name="closethebrowser"/>
+          <include name="Finalreport"/>
+          <include name="verifySetTextAlpha"/>
+          <include name="verifyClearAll"/>
+          <include name="verifyDisplayNo"/>
+          <include name="verifyNormalGet"/>
+        </methods>
+      </class> <!-- Testcases.TestTextBox -->
+      <class name="Testcases.TestMessageBox">
+        <methods>
+          <include name="ExtentReport"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="initializethebrowser"/>
+          <include name="verifySample4"/>
+          <include name="verifySample5"/>
+          <include name="verifySample3"/>
+          <include name="verifySample8"/>
+          <include name="verifySample7"/>
+          <include name="verifySample2"/>
+          <include name="verifySample1"/>
+          <include name="verifySample6"/>
+          <include name="Finalreport"/>
+          <include name="closethebrowser"/>
+        </methods>
+      </class> <!-- Testcases.TestMessageBox -->
+      <class name="Testcases.TestFauxTab">
+        <methods>
+          <include name="closethebrowser"/>
+          <include name="verifyGetActiveTabKey"/>
+          <include name="verifySelectedTabId"/>
+          <include name="verifyEnableFalseDrop"/>
+          <include name="verifyVisible2False"/>
+          <include name="verifyVisible2True"/>
+          <include name="verifyEnableTrueDrop"/>
+          <include name="verifyVisibleFalse"/>
+          <include name="verifyGetActiveTabName"/>
+          <include name="verifyEnableFalse"/>
+          <include name="verifyGetSetTag"/>
+          <include name="verifySetToolTip"/>
+          <include name="verifyShowToolTipTrue"/>
+          <include name="verifyDisplayName"/>
+          <include name="setup"/>
+          <include name="ExtentReport"/>
+          <include name="verifyLockTab"/>
+          <include name="verifyTabCount"/>
+          <include name="Finalreport"/>
+          <include name="verifyEnable2FalseDrop"/>
+          <include name="verifyVisibleTrue"/>
+          <include name="verifyEnable2TrueDrop"/>
+          <include name="verifyShowToolTipFalse"/>
+          <include name="verifyGetActiveTabIndex"/>
+          <include name="verifySetActive"/>
+          <include name="verifyVisible1False"/>
+          <include name="verifyEnableTrue"/>
+          <include name="verifyVisible1True"/>
+          <include name="verifySelectTab"/>
+          <include name="verifyUnLockTab"/>
+          <include name="verifyFrameLoaded"/>
+          <include name="verifyIsShow"/>
+          <include name="verifySetMandatoryFalse"/>
+          <include name="teardown"/>
+          <include name="verifySetMandatoryTrue"/>
+          <include name="initializethebrowser"/>
+        </methods>
+      </class> <!-- Testcases.TestFauxTab -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parallel Test Suite] -->
